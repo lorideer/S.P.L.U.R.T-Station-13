@@ -204,6 +204,7 @@
 	boozepwr = 90
 	color = "#1f6131"
 	taste_description = "a sugary, dry, swirl of bravery and memories of the 1960s."
+	glass_icon = 'modular_splurt/icons/obj/drinks.dmi'
 	glass_icon_state = "swampwater"
 	glass_name = "Swamp Water"
 	glass_desc = "This drink hisses at you in the glass. You're either going to fight God, or become him..."
