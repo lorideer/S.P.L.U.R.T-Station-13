@@ -99,7 +99,7 @@
 	id = /datum/reagent/consumable/ethanol/swamp_water
 	results = list(/datum/reagent/consumable/swamp_water = 10)
 	required_reagents = list(
-		/datum/reagent/consumable/ethanol/absinthe = 8,
+		/datum/reagent/consumable/ethanol/absinthe = 5,
 		/datum/reagent/consumable/ethanol/mushroom_hallucinogen = 2
 	)
 	mix_message = "You feel your liver shudder in fear...Or is that excitement?"
