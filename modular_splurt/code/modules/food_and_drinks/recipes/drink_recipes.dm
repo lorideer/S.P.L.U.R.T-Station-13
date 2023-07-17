@@ -104,6 +104,18 @@
 	)
 	mix_message = "You feel your liver shudder in fear...Or is that excitement?"
 
+/datum/chemical_reaction/tibbets_last_laugh
+	name = "Tibbets' Last Laugh"
+	id = /datum/reagent/consumable/ethanol/tibbets_last_laugh
+	results = list(/datum/reagent/consumable/tibbets_last_laugh = 4)
+	required_reagents = list(
+		/datum/reagent/consumable/peachjuice = 1
+		/datum/reagent/consumable/cream = 1
+		/datum/reagent/consumable/ice = 1
+		/datum/reagent/consumable/absinthe = 1
+	)
+	mix_message = "You hear a distant, high-pitched giggling..."
+
 
 // ~( Ported from TG )~
 /datum/chemical_reaction/admiralty

@@ -209,6 +209,17 @@
 	glass_name = "Swamp Water"
 	glass_desc = "This drink hisses at you in the glass. You're either going to fight God, or become him..."
 
+/datum/reagent/consumable/ethanol/tibbets_last_laugh
+	name = "Tibbets' Last Laugh"
+	description = "Weak, chaotic, and maybe just a little goofy."
+	boozepwr = 30
+	color = "#baa51e"
+	taste_description = "all is sweet and well, until you least expect it."
+	glass_icon = 'modular_splurt/icons/obj/drinks.dmi'
+	glass_icon_state = "tibbetslastlaugh"
+	glass_name = "Tibbets' Last Laugh"
+	glass_desc = "The last memories of a silly, chaotic being who got a bit too close to the sun."
+
 // ~( Ported from TG )~
 /datum/reagent/consumable/ethanol/curacao
 	name = "Curaçao"
