@@ -94,6 +94,25 @@
 		/datum/reagent/medicine/stimulants = 1
 	)
 
+/datum/chemical_reaction/swamp_water
+	name = "Swamp Water"
+	id = /datum/reagent/consumable/ethanol/swamp_water
+	results = list(/datum/reagent/consumable/swamp_water = 10)
+	required_reagents = list(
+		/datum/reagent/consumable/ethanol/absinthe = 5,
+		/datum/reagent/consumable/ethanol/mushroom_hallucinogen = 2)
+	mix_message = "You feel your liver shudder in fear...Or is that excitement?"
+
+/datum/chemical_reaction/tibbets_last_laugh
+	name = "Tibbets' Last Laugh"
+	id = /datum/reagent/consumable/ethanol/tibbets_last_laugh
+	results = list(/datum/reagent/consumable/ethanol/tibbets_last_laugh = 4)
+	required_reagents = list(
+		/datum/reagent/consumable/peachjuice = 1
+		/datum/reagent/consumable/cream = 1
+		/datum/reagent/consumable/ice = 1
+		/datum/reagent/consumable/absinthe = 1
+	)
 
 // ~( Ported from TG )~
 /datum/chemical_reaction/admiralty
