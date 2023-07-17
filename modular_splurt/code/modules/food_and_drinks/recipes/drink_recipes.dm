@@ -108,9 +108,9 @@
 	id = /datum/reagent/consumable/ethanol/tibbets_last_laugh
 	results = list(/datum/reagent/consumable/ethanol/tibbets_last_laugh = 4)
 	required_reagents = list(
-		/datum/reagent/consumable/peachjuice = 1
-		/datum/reagent/consumable/cream = 1
-		/datum/reagent/consumable/ice = 1
+		/datum/reagent/consumable/peachjuice = 1,
+		/datum/reagent/consumable/cream = 1,
+		/datum/reagent/consumable/ice = 1,
 		/datum/reagent/consumable/absinthe = 1
 	)
 
